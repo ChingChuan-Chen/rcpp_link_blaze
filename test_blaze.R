@@ -26,8 +26,8 @@ microbenchmark(
   R = as.vector(X %*% y),
   times = 50L
 )
-# Unit: microseconds
-#   expr     min      lq     mean  median      uq      max neval
-#  blaze 168.228 169.983 195.6315 173.640 202.750  312.172    30
-#      R 554.126 559.099 632.9047 562.757 660.328 1506.730    30
+# Unit: milliseconds
+#   expr       min        lq      mean   median        uq      max neval
+#  blaze  71.85781  73.24371  75.09043  73.9036  75.86864  84.0395    50
+#      R 229.66355 232.81744 237.53576 235.3185 239.67701 255.2478    50
 
